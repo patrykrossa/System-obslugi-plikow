@@ -38,10 +38,16 @@ int main()
 	// WYKORZYSTAJ W TYM CELU ITERATORY
 	// PRZYDATNA MOŻE SIĘ OKAZAĆ FUNKCJA path()
 
+	try
+	{
+		//TUTAJ ROZWIĄZANIE
 
 
-	//TUTAJ ROZWIĄZANIE
-
+	}
+	catch (fs::filesystem_error e)
+	{
+		cerr << e.what() << endl;
+	}
 
 
 	// -----ZAD 4-----
